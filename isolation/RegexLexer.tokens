@@ -1,0 +1,10 @@
+KLEEN=1
+UNION=2
+OPEN=3
+CLOSE=4
+WHITESPACE=5
+VAR=6
+'*'=1
+'|'=2
+'('=3
+')'=4

@@ -1,0 +1,36 @@
+Cristian Cringasu 336 CB:
+
+Cum am rezolvat tema?
+
+Partea 2 NFA -> DFA aka tema 2, nu discutam
+
+Partea 1 ER -> NFA:
+
+Am facut o gramatica in antlr, 
+care tine cont si de precedenta operatorilor: union,
+concat, kleen si paranteze
+
+Dupa ce mi am scos visitorul de care aveam nevoie, 
+am inceput si parcurg arborele de parsare, si intr o
+maniera recursiva mi am construit arborele
+similar cu evaluarea unei expresii aritmetice
+
+Frunzele erau "numerele", aka automate simple
+cu 2 stari, initiala, si finala, si cu tranzitia
+din starea initiala spre finala, doar pe caracterul
+pe care il reprezinta.
+
+Apoi am avut de implementat kleen, care practic ia un
+NFA si uneste toate starile finale cu cele initiala,
+si face starea initiala si finala (cu epsilon tranzitii)
+
+Apoi union, care ia 2 automate si le uneste
+exact ca la curs (o stare initiala , trazitii epsilon
+spre celelalte stari initiala)
+
+Apoi am avut de facut concat, care pune 2 automate 
+cap in cap :)
+
+Si atat.. la final imi iesea un NFA ok..
+
+Si pe asta l am transformat in DFA.. si cam atat..

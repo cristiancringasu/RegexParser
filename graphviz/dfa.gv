@@ -1,0 +1,20 @@
+// My Directed Graph
+digraph {
+	node [fontcolor=black fontsize=11 shape=circle]
+	edge [shape=tee]
+	0
+	1
+	2
+	3
+	4
+	0 -> 1 [label=b]
+	0 -> 2 [label=a]
+	1 -> 3 [label=b]
+	1 -> 4 [label=a]
+	2 -> 1 [label=b]
+	2 -> 2 [label=a]
+	3 -> 1 [label=b]
+	3 -> 2 [label=a]
+	4 -> 4 [label=b]
+	4 -> 4 [label=a]
+}

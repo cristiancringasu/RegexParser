@@ -1,0 +1,35 @@
+NU AM PREA MULT TIMP:
+
+
+Cum am facut tema??
+
+
+Pai partea nfa dfa = tema 2 nu discutam
+
+:La partea 1
+am folosit antlr4
+
+Mi am facut gramatica si am avuta grija la dublul kleen*
+ca baietii au vrut sa ne puna bete in roate
+
+
+dupa am vizitat arborele
+si maniera recusiva dinamica
+
+am construit nfa ul ca la curs
+
+
+adica union, concat si kleen
+
+in mare parte cu epsilon tranzitii
+
+nu e mare filozofie
+trebuie doar de notat faptul ca variabilele in arborele meu sunt frunze
+
+
+si reprezinta cel mai simplu nfa cu 2 stari
+
+si ca la expresii aritmetice pe asta lucram..
+
+
+crstian cringasu !
